@@ -28,14 +28,14 @@ margin:0 auto
 </div> 
 </head>                                                                                                          
 <body>
-<div class="medium">                                                                                      
+<div class="medium">                         	                                                             
 <h2>生如夏花之绚烂，逝如秋叶之静美</h2>
 <h2>Welcome to Yuan's Blog. </h2>                                                                                                 
 <ul>                                                                                            
 {% for post in site.posts %}                                                                                 
 <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}                                                                                                 
-</div>
+{% endfor %}                                                                                                
 </ul>           
+</div>
 </body>
 </html>                                                                                                 
