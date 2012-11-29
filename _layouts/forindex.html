@@ -9,7 +9,7 @@ text-align:center;
 
 div.left{
 border:0px ;
-margin: 0 0 0 400px;
+margin: 0 0 0 500px;
 text-align:left;
 width:500px;
 }
@@ -28,15 +28,39 @@ margin:0 auto
 
  <title>{{ page.title }}</title>
 </div>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script>
+        var JSONP_callback = "?callback=?";
+
+        function getWeather() {
+            var target = "http://api.wunderground.com/api/74109fc106fa1091/forecast/q/BE/Brussels.json" + JSONP_callback;
+            $.getJSON(target, function(result) {
+                var output = "<table border='1'><tr>";
+                for(var i = 0; i < result.forecast.simpleforecast.forecastday.length; i++){
+                    var fc = result.forecast.simpleforecast.forecastday[i];
+                    output += "<td>";
+                    output += "<u>" + fc.date.weekday + "</u><br/>";
+                    output += "<img src='" + fc.icon_url + "'><br/>";
+                    output += fc.low.celsius + " to " + fc.high.celsius;
+                    output += "</td>";
+                }
+                output += "</tr></table>";
+                $("#result").html(output);
+            });
+        }
+
+
+    </script>
 </head>
 
-<body>
+<body onLoad="getWeather();">
 	
 	<div class="medium">
 		<div class="left">
    {{ content }}
 </div>
 </div>
+<div id="result" class="left"></div>
 </body>
 
 </html>
