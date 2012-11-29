@@ -29,9 +29,9 @@ margin:0 auto
  <title>{{ page.title }}</title>
 </div>
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<div class="medium">
     <script>
         var JSONP_callback = "?callback=?";
-
         function getWeather() {
             var target = "http://api.wunderground.com/api/74109fc106fa1091/forecast/q/BE/Brussels.json" + JSONP_callback;
             $.getJSON(target, function(result) {
@@ -51,10 +51,11 @@ margin:0 auto
 
 
     </script>
+    </div>
 </head>
 
 <body onLoad="getWeather();">
-	<div id="result" style="text-align:right;width=150px;"></div>
+	<div id="result" ></div>
 	<div class="medium">
 		<div class="left">
    {{ content }}
