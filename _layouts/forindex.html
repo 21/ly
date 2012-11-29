@@ -29,7 +29,6 @@ margin:0 auto
  <title>{{ page.title }}</title>
 </div>
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<div class="medium">
     <script>
         var JSONP_callback = "?callback=?";
         function getWeather() {
@@ -51,16 +50,20 @@ margin:0 auto
 
 
     </script>
-    </div>
 </head>
 
 <body onLoad="getWeather();">
-	<div id="result" ></div>
-	<div class="medium">
-		<div class="left">
-   {{ content }}
-</div>
-</div>
+	<div id="container" style="width:1000px">
+	   <div style="float:left;width=700px;">
+	   		<div id="result" ></div>
+	   </div>
+	   <div class="medium">
+	   <div class="left">
+  				 {{ content }}
+		</div>
+		</div>
+	</div>
+
 </body>
 
 </html>
