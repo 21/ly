@@ -1,0 +1,47 @@
+---
+layout: default
+title: 有关剪枝的小体会
+---
+<h2>{{ page.title }}</h2>
+
+ <p>直接看例子:
+		p:- !,q,!,r,!.
+		p:-s.
+		q:-true.
+		r:-fail.
+		s:-true.</p>
+<p>
+	别害怕,三个cut位置不同,其作用也不同.第一个cut:
+	p:- !,q,r.
+		p:-s.
+		q:-true.
+		r:-fail.
+		s:-true.
+	第一句p = q , r结果是什么,都cut. p只和q,r有关系.
+
+	第三个cut:
+	p:- q,r,!.
+		p:-s.
+		q:-true.
+		r:-fail.
+		s:-true.
+	第一句同样p首先由q,r决定.但是如果p因此为fail,那么不cut,p由下面的p=s定义.
+
+	最复杂的是第二个cut:
+	p:- q,!,r.
+		p:-s.
+		q:-true.
+		r:-fail.
+		s:-true.
+	第一句同样p首先由q,r决定. 但是是否剪枝则由q决定: q真,则cut生效.那么第一句执行完毕后不会执行
+	后续的p=s. 如果p假,那么不cut,会查询p=s的真值. 所以说这个经典剪枝(第二种cut法)常被用作
+	p=q,r 或者 p= not_q,s.  
+	不必死记结论,这个结论只是把真值推演的结果用我们常用到的方式表示出来而已
+	:) have fun!
+
+
+		</p>
+
+
+
+ <p>{{ page.date | date_to_string }}</p>
