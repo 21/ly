@@ -5,19 +5,19 @@ title: 有关剪枝的小体会
 <h2>{{ page.title }}</h2>
 
  <p>直接看例子:<br>
-		p:- !,q,!,r,!.<br>
+		p:- !,q,!,r,!. 这三个!当然只有一个能出现,下面说说用法:<br>
 		p:-s.<br>
 		q:-true.<br>
 		r:-fail.<br>
 		s:-true.</p>
 <p>
-	别害怕,三个cut位置不同,其作用也不同.第一个cut:<br>
+	第一个cut:<br>
 	p:- !,q,r.<br>
 		p:-s.<br>
 		q:-true.<br>
 		r:-fail.<br>
 		s:-true.<br>
-	第一句p = q , r结果是什么,都cut. p只和q,r有关系.<br>
+	第一句查询p = q , r.  无论结果是什么(q交r=0 or 1)都cut,也就是不查询s,p只和q,r有关系.<br>
 <br>
 	第三个cut:<br>
 	p:- q,r,!.<br>
@@ -25,7 +25,7 @@ title: 有关剪枝的小体会
 		q:-true.<br>
 		r:-fail.<br>
 		s:-true.<br>
-	第一句同样p首先由q,r决定.但是如果p因此为fail,那么不cut,p由下面的p=s定义.<br>
+	第一句同样p首先由q,r决定.但是如果p为fail(q,r中至少一个不为1),那么不cut,p由下面的p=s定义.<br>
 
 	最复杂的是第二个cut:<br>
 	p:- q,!,r.<br>
