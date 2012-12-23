@@ -39,6 +39,7 @@ margin:0 auto
         var JSONP_callback = "?callback=?";
         function getWeather() {
             var target = "http://api.wunderground.com/api/74109fc106fa1091/forecast/q/BE/Brussels.json" + JSONP_callback;
+            var beijing= "http://api.wunderground.com/api/74109fc106fa1091/forecast/q/Beijing.json" + JSONP_callback;
             $.getJSON(target, function(result) {
                 var output = "<table border='1'><tr>";
                 for(var i = 0; i < result.forecast.simpleforecast.forecastday.length; i++){
@@ -51,6 +52,20 @@ margin:0 auto
                 }
                 output += "</tr></table>";
                 $("#result").html(output);
+            });
+
+          $.getJSON(beijing, function(result1) {
+                var output = "<table border='1'><tr>";
+                for(var i = 0; i < result1.forecast.simpleforecast.forecastday.length; i++){
+                    var fc = result1.forecast.simpleforecast.forecastday[i];
+                    output += "<td>";
+                    output += "<u>" + fc.date.weekday + "</u><br/>";
+                    output += "<img src='" + fc.icon_url + "'><br/>";
+                    output += fc.low.celsius + " to " + fc.high.celsius;
+                    output += "</td>";
+                }
+                output += "</tr></table>";
+                $("#result1").html(output);
             });
         }
 
@@ -65,8 +80,8 @@ margin:0 auto
 	   		<div id="result" ></div>
 	   </div>
        <div style="float:left;width=700px;">
-        <p>Beijing</p>
-            <div id="result" ></div>
+            <p>Beijing</p>
+            <div id="result1" ></div>
         </div>
 	   <div class="medium">
 	   <div class="left">
