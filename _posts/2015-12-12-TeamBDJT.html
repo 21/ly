@@ -54,15 +54,16 @@ var heatmapData = [
   ];
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 9,
+    zoom: 16,
     center: {lat: 50.85, lng: 4.35},
     mapTypeId: google.maps.MapTypeId.SATELLITE
   });
   heatmap = new google.maps.visualization.HeatmapLayer({
     data: heatmapData
-    map: map
   });
+  heatmap.setMap(map);
 }
+
 function toggleHeatmap() {
   heatmap.setMap(heatmap.getMap() ? null : map);
 }
@@ -93,15 +94,6 @@ function changeOpacity() {
 }
 // Heatmap data: 500 Points
 
-function getPoints() {
-  return [
-    
-    new google.maps.LatLng(50.892626, 4.376870),
-    new google.maps.LatLng(50.884555, 4.467835),
-    new google.maps.LatLng(50.894967, 4.311361),
-    new google.maps.LatLng(50.847321, 4.349185)
-  ];
-}
     </script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlzA4t1E-8rd9IzFkZ1LDFixyouj2uruQ&signed_in=true&libraries=visualization&callback=initMap">
