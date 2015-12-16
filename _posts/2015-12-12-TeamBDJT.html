@@ -47,6 +47,12 @@
     <div id="map"></div>
     <script>
 var map, heatmap;
+var heatmapData = [
+    new google.maps.LatLng(50.854722, 4.365278),
+    new google.maps.LatLng(50.844, 4.3427),
+    new google.maps.LatLng(50.845, 4.3429),
+
+];
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 9,
@@ -54,7 +60,7 @@ function initMap() {
     mapTypeId: google.maps.MapTypeId.SATELLITE
   });
   heatmap = new google.maps.visualization.HeatmapLayer({
-    data: getPoints(),
+    data: heatmapData
     map: map
   });
 }
@@ -87,8 +93,8 @@ function changeOpacity() {
   heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
 // Heatmap data: 500 Points
-function getPoints() {
-  return [
+
+var heatmapData = [
     new google.maps.LatLng(50.854722, 4.365278),
     new google.maps.LatLng(50.844300, 4.342790),
     new google.maps.LatLng(50.844300, 4.342790),
@@ -97,6 +103,10 @@ function getPoints() {
     new google.maps.LatLng(50.793855, 4.325109),
     new google.maps.LatLng(50.884564, 4.467858),
     new google.maps.LatLng(50.900557, 4.488714),
+];
+function getPoints() {
+  return [
+    
     new google.maps.LatLng(50.892626, 4.376870),
     new google.maps.LatLng(50.884555, 4.467835),
     new google.maps.LatLng(50.894967, 4.311361),
