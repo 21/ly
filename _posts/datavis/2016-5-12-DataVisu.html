@@ -31,7 +31,7 @@ var interval=150;
 var days=["Mon.","Tues.","Wed.","Thurs.","Fri.","Sat.","Sun."];
 var count=new Array(7).fill(0);
 delaytimes.push("Delays:");
-d3.csv("output.csv")
+d3.csv("ly/_posts/datavis/output.csv")
 	.row(function(d){
 		var temp=d.Destination;
 		lStation.push(temp);
