@@ -24,7 +24,8 @@ var svgheight =6000;
 var csvdata=null;
 var interval=150;
 var days=["Mon.","Tues.","Wed.","Thurs.","Fri.","Sat.","Sun."];
-var count=new Array(7).fill(0);
+var count=[0,0,0,0,0,0,0];
+var totaltrain=[267,260,259,260,259,79,107];   //the total departures include non-delay.
 
 delaytimes.push("Delays:");
 d3.csv("output.csv")
@@ -48,12 +49,12 @@ function drawing(){
 	res.sort(function(a,b){
 		return b[0]-a[0];
 	})                  
-	drawHead();
+	var headline=drawHead();
 	drawBody(res);
-	
+	fillhead(headline);
 }
 
-function counting(lStation)
+function counting(lStation)   //return list with [delaytime:destination stations]
 {
 	var temp="";
 	var uniqueStations=[];
@@ -81,7 +82,8 @@ function drawHead()
 {
 
 	var weekdayline = d3.select("#thead").append("svg").attr("width", "100%").attr("height",30);
-	var headline = d3.select("#thead").append("svg").attr("width", "100%").attr("height",80);
+	var header = d3.select("#thead").append("svg");
+	var headright=header.attr("width", "100%").attr("height",80);
 	var daynames=weekdayline.selectAll("text")
 	.data(days)
 	.enter()
@@ -90,24 +92,14 @@ function drawHead()
 		return d;
 	})
 	.attr("x",function(d,i){
-
 		return (i*interval)+185;
 	})
 	.attr("y",20)
 	.attr("font-size","18");
 
-	var headleft=headline.selectAll("text")
-	.data(delaytimes)
-	.enter()
-	.append("text")
-	.text(function(d){
-		return d;
-	})
-	.attr("x",5)
-	.attr("y",40)
-	.attr("font-size","15");
 
-	var headrest=headline.selectAll("circle")
+
+	var headrest=headright.selectAll("circle")
 	.data(days)
 	.enter()
 	.append("circle")
@@ -117,7 +109,35 @@ function drawHead()
 		})
 	.attr("cy",40)
 	.attr("r",35)
-	.attr("fill","rgba(124,240,10,0.8)");
+	.attr("fill","rgba(0,89,179,0)");
+	return headright;
+}
+
+function fillhead(headright){
+
+	 var render=headright.selectAll("circle")   //update the opacity via "delays/all_departures"
+	 .data(totaltrain)
+	 .transition()
+	 .duration(10000)
+	 .attr("fill",function(d,i){
+	 	opacity=count[i]/totaltrain[i];
+	 	return("rgba(0,89,179,"+String(opacity)+")");
+	 })
+
+	 var showdelaytimes=headright.selectAll("text")
+	.data(count)
+	.enter()
+	.append("text")
+	.attr(
+		"x", function(d,i){
+			console.log(d);
+			return ((i)*interval)+200;
+		})
+	.attr("y",40)
+	.attr("font-size","15")
+	.text(function(d){
+		return d;
+	});
 }
 
 function drawBody(res){
@@ -157,8 +177,8 @@ function printtime(){
 		})
 		.attr("font-size","15");
 }
-
-function printLine(){
+ 
+function printLine(){      //print verticle dash line help visualy align circles
 	var lines=svg.selectAll("line")
 	.data(days)
 	.enter()
@@ -183,11 +203,6 @@ function printDelays(res){
 	var zoomrate=5;
 	var colors=["#e60000","#3FA2C3","#376a16","#9A23CA","#EEF90F","#ffff00","#ffdab3"];
 	//orange,lightblue, green, purple,light yellow,pink;
-	var tooltip=svg.select("body")
-		.append("div")
-		.style("position", "absolute")
-		.style("z-index", "10")
-		.style("visibility", "hidden")
 
 	var lines=svg.selectAll("circle")
 	.data(csvdata)
@@ -196,7 +211,7 @@ function printDelays(res){
 	.attr("cx",function(d){
 			var wd=d.weekday;
 			wd=(wd+6)%7;  //Monday to Sunday == 0 to 7
-			count[wd]++;
+			count[wd]++; 	 
 			return (wd*interval)+200;
 	})
 	.attr("cy",function(d){  
@@ -220,7 +235,7 @@ function printDelays(res){
 	.style("stroke-width",function(d){
 			for (var i=0;i<colors.length;i++){
 				if(d.destination==res[i][1]) {   //if it is one of top six most delayed stations
-					return 3.5;
+					return 3.5;					//emphsize its broder
 				}
 			}
 			return 0.4
@@ -229,7 +244,7 @@ function printDelays(res){
 	.append("svg:title")
 	.text(function(d){
 		var tempmin=d.mins;
-		if (Number(d.mins)<10)    //change time like "21:6" t0 "21:06"
+		if (Number(d.mins)<10)    //change time like "21:6" to "21:06"
 			tempmin="0"+tempmin;
 		return "Destination: "+d.destination+'\n'+
 			   "Scheduled: "+d.hours+":" +tempmin+'\n'+
