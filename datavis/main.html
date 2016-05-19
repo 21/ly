@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="thead" >
+</div>
+<div id="tbody" >
+</div>
+
+
+
+<script>
+var numDays=7;
+var delaytimes=[];
+var lStation=[];
+
+var minformat=d3.time.format("%H:%M:%S");
+var weekdayformat=d3.time.format("%Y/%m/%d");
+var svgheight =6000;
+var csvdata=null;
+var interval=150;
+var days=["Mon.","Tues.","Wed.","Thurs.","Fri.","Sat.","Sun."];
+var count=new Array(7).fill(0);
+
+delaytimes.push("Delays:");
+d3.csv("output.csv")
+	.row(function(d){
+		var temp=d.Destination;
+		lStation.push(temp);
+		return {
+		weekday: weekdayformat.parse(d.Date).getDay(),
+		hours: minformat.parse(d.Time).getHours(),
+		mins:  minformat.parse(d.Time).getMinutes(),
+		delay: +d.Delay,
+		destination: temp
+	};
+	}).get(function(error,rows){
+		csvdata=rows;
+		drawing();
+	});
+
+function drawing(){
+	var res = counting(lStation);
+	res.sort(function(a,b){
+		return b[0]-a[0];
+	})                  
+	drawHead();
+	drawBody(res);
+	
+}
+
+function counting(lStation)
+{
+	var temp="";
+	var uniqueStations=[];
+	var delaycounter=[];
+	var res=[];
+	lStation.sort();
+	for (var i =0;i<lStation.length;i++){
+		if(lStation[i]!==temp){
+			uniqueStations.push(lStation[i]);
+			delaycounter.push(1);
+		}
+		else {
+			delaycounter[delaycounter.length-1]++;
+		}
+		temp=lStation[i];
+	}
+	for (var i =0;i<delaycounter.length;i++){
+		res.push([delaycounter[i],uniqueStations[i]]);
+	}
+	return res;
+
+}
+
+function drawHead()
+{
+
+	var weekdayline = d3.select("#thead").append("svg").attr("width", "100%").attr("height",30);
+	var headline = d3.select("#thead").append("svg").attr("width", "100%").attr("height",80);
+	var daynames=weekdayline.selectAll("text")
+	.data(days)
+	.enter()
+	.append("text")
+	.text(function(d){
+		return d;
+	})
+	.attr("x",function(d,i){
+
+		return (i*interval)+185;
+	})
+	.attr("y",20)
+	.attr("font-size","18");
+
+	var headleft=headline.selectAll("text")
+	.data(delaytimes)
+	.enter()
+	.append("text")
+	.text(function(d){
+		return d;
+	})
+	.attr("x",5)
+	.attr("y",40)
+	.attr("font-size","15");
+
+	var headrest=headline.selectAll("circle")
+	.data(days)
+	.enter()
+	.append("circle")
+	.attr(
+		"cx", function(d,i){
+			return (i*interval)+207;
+		})
+	.attr("cy",40)
+	.attr("r",35)
+	.attr("fill","rgba(124,240,10,0.8)");
+}
+
+function drawBody(res){
+	var timeset=[];
+	var svg= d3.select("#tbody").append("svg").attr("width", numDays*interval+100).attr("height",svgheight);
+	printtime();
+	printLine();
+	printDelays(res);
+
+
+function printtime(){
+	for (var i=0;i<229;i++){
+		var tempH,tempM;
+		tempM=5*(i%12);
+		if(tempM==5)
+		{
+			tempM="05";
+		}
+		else if(tempM==0)
+		{
+			tempM="00";
+		}
+		tempH=5+Math.floor(i/12);
+		timeset.push(tempH+":"+tempM);
+	}
+	var timelist=svg.selectAll("text")
+		.data(timeset)
+		.enter()
+		.append("text")
+		.text(function(d){
+			return d;
+		})
+		.attr("x", 5)
+		.attr("y",function(d,i){
+			return i*5*5+50;   //The interval is 5mins, and each single mintue take 5 px.
+								//puls a margin with 50px.  
+		})
+		.attr("font-size","15");
+}
+
+function printLine(){
+	var lines=svg.selectAll("line")
+	.data(days)
+	.enter()
+	.append("line")
+	.attr(
+		"x1", function(d,i){
+			return (i*interval)+200;
+		})
+	.attr(
+		"x2", function(d,i){
+			return (i*interval)+200;
+		})
+	.attr("y1",40)
+	.attr("y2",6000)
+	.attr("stroke","rgb(243, 252, 180)")
+	.attr("stroke-width",5)
+	.attr("stroke-linecap","round")
+	.attr("stroke-dasharray","1, 10");
+}
+
+function printDelays(res){
+	var zoomrate=5;
+	var colors=["#e60000","#3FA2C3","#376a16","#9A23CA","#EEF90F","#ffff00","#ffdab3"];
+	//orange,lightblue, green, purple,light yellow,pink;
+	var tooltip=svg.select("body")
+		.append("div")
+		.style("position", "absolute")
+		.style("z-index", "10")
+		.style("visibility", "hidden")
+
+	var lines=svg.selectAll("circle")
+	.data(csvdata)
+	.enter()
+	.append("circle")
+	.attr("cx",function(d){
+			var wd=d.weekday;
+			wd=(wd+6)%7;  //Monday to Sunday == 0 to 7
+			count[wd]++;
+			return (wd*interval)+200;
+	})
+	.attr("cy",function(d){  
+	    var ytop=zoomrate*(d.mins+(d.hours-5)*60); // we have (24-5)*60 =1140 total minutes.
+							 			 //each minute take 5 px. so  total height is close to 6000.
+							  			//"5" is the zoom rate.
+		var y=ytop+d.delay*0.5*zoomrate+50;
+		return  y;
+	})
+	.attr("r",function(d){
+		return (d.delay)*zoomrate*0.5;  
+	})
+	.style("stroke",function(d){
+			for (var i=0;i<colors.length;i++){  
+				if(d.destination==res[i][1]) { //if it is one of top six most delayed stations
+					return colors[i];     //print a special color
+				}
+			}
+			return "black";
+	})
+	.style("stroke-width",function(d){
+			for (var i=0;i<colors.length;i++){
+				if(d.destination==res[i][1]) {   //if it is one of top six most delayed stations
+					return 3.5;
+				}
+			}
+			return 0.4
+	})
+	.style("fill","rgba(240, 243, 244,0.01)")
+	.append("svg:title")
+	.text(function(d){
+		var tempmin=d.mins;
+		if (Number(d.mins)<10)    //change time like "21:6" t0 "21:06"
+			tempmin="0"+tempmin;
+		return "Destination: "+d.destination+'\n'+
+			   "Scheduled: "+d.hours+":" +tempmin+'\n'+
+			   "Delay: "+d.delay+ " mins";
+	});
+}
+}
+
+</script>
+
+</body>
+</html>
+
