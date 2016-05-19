@@ -1,0 +1,413 @@
+Day,Date,Time,DateTime,Destination,Delay,Canceled
+Sunday,2016/4/3,7:51:00,2016/4/3 7:51,Arlon,7,No
+Sunday,2016/4/3,8:51:00,2016/4/3 8:51,Arlon,2,No
+Sunday,2016/4/3,9:51:00,2016/4/3 9:51,Arlon,3,No
+Sunday,2016/4/3,10:51:00,2016/4/3 10:51,Arlon,2,No
+Sunday,2016/4/3,11:06:00,2016/4/3 11:06,Ottignies,4,No
+Sunday,2016/4/3,11:21:00,2016/4/3 11:21,Dinant,2,No
+Sunday,2016/4/3,12:51:00,2016/4/3 12:51,Arlon,4,No
+Sunday,2016/4/3,14:21:00,2016/4/3 14:21,Dinant,1,No
+Sunday,2016/4/3,14:51:00,2016/4/3 14:51,Arlon,4,No
+Sunday,2016/4/3,15:06:00,2016/4/3 15:06,Ottignies,3,No
+Sunday,2016/4/3,15:51:00,2016/4/3 15:51,Arlon,2,No
+Sunday,2016/4/3,16:21:00,2016/4/3 16:21,Dinant,4,No
+Sunday,2016/4/3,16:51:00,2016/4/3 16:51,Arlon,2,No
+Sunday,2016/4/3,17:06:00,2016/4/3 17:06,Ottignies,1,No
+Sunday,2016/4/3,17:21:00,2016/4/3 17:21,Dinant,4,No
+Sunday,2016/4/3,17:51:00,2016/4/3 17:51,Arlon,1,No
+Sunday,2016/4/3,18:21:00,2016/4/3 18:21,Dinant,3,No
+Sunday,2016/4/3,19:06:00,2016/4/3 19:06,Ottignies,16,No
+Sunday,2016/4/3,19:21:00,2016/4/3 19:21,Dinant,2,No
+Sunday,2016/4/3,19:39:00,2016/4/3 19:39,Brussel-Zuid / Bruxelles-Midi,13,No
+Sunday,2016/4/3,19:51:00,2016/4/3 19:51,Arlon,1,No
+Sunday,2016/4/3,20:06:00,2016/4/3 20:06,Ottignies,1,No
+Sunday,2016/4/3,20:21:00,2016/4/3 20:21,Dinant,1,No
+Sunday,2016/4/3,20:51:00,2016/4/3 20:51,Arlon,8,No
+Sunday,2016/4/3,21:21:00,2016/4/3 21:21,Dinant,6,No
+Sunday,2016/4/3,21:55:00,2016/4/3 21:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Sunday,2016/4/3,22:06:00,2016/4/3 22:06,Ottignies,2,No
+Sunday,2016/4/3,22:21:00,2016/4/3 22:21,Namur,2,No
+Sunday,2016/4/3,23:06:00,2016/4/3 23:06,Ottignies,1,No
+Sunday,2016/4/3,23:51:00,2016/4/3 23:51,Namur,2,No
+Monday,2016/4/4,5:51:00,2016/4/4 5:51,Arlon,1,No
+Monday,2016/4/4,6:09:00,2016/4/4 6:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Monday,2016/4/4,6:21:00,2016/4/4 6:21,Liege-Palais,1,No
+Monday,2016/4/4,6:22:00,2016/4/4 6:22,Brussel-Zuid / Bruxelles-Midi,2,No
+Monday,2016/4/4,6:34:00,2016/4/4 6:34,Dinant,4,No
+Monday,2016/4/4,6:51:00,2016/4/4 6:51,Arlon,1,No
+Monday,2016/4/4,7:26:00,2016/4/4 7:26,Schaarbeek / Schaerbeek,1,No
+Monday,2016/4/4,7:28:00,2016/4/4 7:28,Braine-L Alleud,2,No
+Monday,2016/4/4,7:21:00,2016/4/4 7:21,Liege-Palais,15,No
+Monday,2016/4/4,7:36:00,2016/4/4 7:36,Aalst,2,No
+Monday,2016/4/4,7:51:00,2016/4/4 7:51,Arlon,3,No
+Monday,2016/4/4,7:55:00,2016/4/4 7:55,Brussel-Zuid / Bruxelles-Midi,4,No
+Monday,2016/4/4,8:05:00,2016/4/4 8:05,Schaarbeek / Schaerbeek,2,No
+Monday,2016/4/4,8:06:00,2016/4/4 8:06,Ottignies,4,No
+Monday,2016/4/4,8:09:00,2016/4/4 8:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Monday,2016/4/4,8:21:00,2016/4/4 8:21,Liege-Palais,10,No
+Monday,2016/4/4,8:26:00,2016/4/4 8:26,Schaarbeek / Schaerbeek,1,No
+Monday,2016/4/4,8:28:00,2016/4/4 8:28,Braine-L Alleud,4,No
+Monday,2016/4/4,8:36:00,2016/4/4 8:36,Aalst,5,No
+Monday,2016/4/4,8:38:00,2016/4/4 8:38,Louvain-La-Neuve-Univ.,1,No
+Monday,2016/4/4,8:51:00,2016/4/4 8:51,Arlon,6,No
+Monday,2016/4/4,9:11:00,2016/4/4 9:11,Halle,1,No
+Monday,2016/4/4,9:21:00,2016/4/4 9:21,Liege-Palais,4,No
+Monday,2016/4/4,9:26:00,2016/4/4 9:26,Schaarbeek / Schaerbeek,2,No
+Monday,2016/4/4,9:36:00,2016/4/4 9:36,Aalst,2,No
+Monday,2016/4/4,9:51:00,2016/4/4 9:51,Arlon,2,No
+Monday,2016/4/4,10:11:00,2016/4/4 10:11,Halle,1,No
+Monday,2016/4/4,10:40:00,2016/4/4 10:40,Brussel-Zuid / Bruxelles-Midi,1,No
+Monday,2016/4/4,10:55:00,2016/4/4 10:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Monday,2016/4/4,11:21:00,2016/4/4 11:21,Liege-Palais,1,No
+Monday,2016/4/4,12:06:00,2016/4/4 12:06,Ottignies,3,No
+Monday,2016/4/4,12:36:00,2016/4/4 12:36,Aalst,1,No
+Monday,2016/4/4,12:38:00,2016/4/4 12:38,Louvain-La-Neuve-Univ.,1,No
+Monday,2016/4/4,13:11:00,2016/4/4 13:11,Halle,4,No
+Monday,2016/4/4,13:26:00,2016/4/4 13:26,Schaarbeek / Schaerbeek,1,No
+Monday,2016/4/4,14:51:00,2016/4/4 14:51,Arlon,5,No
+Monday,2016/4/4,14:55:00,2016/4/4 14:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Monday,2016/4/4,15:11:00,2016/4/4 15:11,Halle,2,No
+Monday,2016/4/4,15:38:00,2016/4/4 15:38,Louvain-La-Neuve-Univ.,2,No
+Monday,2016/4/4,15:51:00,2016/4/4 15:51,Arlon,3,No
+Monday,2016/4/4,15:56:00,2016/4/4 15:56,Charleroi-Sud,1,No
+Monday,2016/4/4,16:00:00,2016/4/4 16:00,Dinant,2,No
+Monday,2016/4/4,16:06:00,2016/4/4 16:06,Ottignies,4,No
+Monday,2016/4/4,16:21:00,2016/4/4 16:21,Liege-Palais,7,No
+Monday,2016/4/4,16:26:00,2016/4/4 16:26,Schaarbeek / Schaerbeek,1,No
+Monday,2016/4/4,16:30:00,2016/4/4 16:30,Arlon,2,No
+Monday,2016/4/4,16:34:00,2016/4/4 16:34,Dinant,3,No
+Monday,2016/4/4,16:36:00,2016/4/4 16:36,Aalst,1,No
+Monday,2016/4/4,16:38:00,2016/4/4 16:38,Louvain-La-Neuve-Univ.,1,No
+Monday,2016/4/4,16:51:00,2016/4/4 16:51,Arlon,3,No
+Monday,2016/4/4,17:00:00,2016/4/4 17:00,Namur,2,No
+Monday,2016/4/4,17:06:00,2016/4/4 17:06,Ottignies,2,No
+Monday,2016/4/4,17:11:00,2016/4/4 17:11,Halle,1,No
+Monday,2016/4/4,17:21:00,2016/4/4 17:21,Liege-Palais,1,No
+Monday,2016/4/4,17:26:00,2016/4/4 17:26,Schaarbeek / Schaerbeek,1,No
+Monday,2016/4/4,17:28:00,2016/4/4 17:28,Braine-L Alleud,3,No
+Monday,2016/4/4,17:09:00,2016/4/4 17:09,Brussel-Zuid / Bruxelles-Midi,41,No
+Monday,2016/4/4,17:36:00,2016/4/4 17:36,Aalst,1,No
+Monday,2016/4/4,17:51:00,2016/4/4 17:51,Arlon,2,No
+Monday,2016/4/4,17:55:00,2016/4/4 17:55,Brussel-Zuid / Bruxelles-Midi,7,No
+Monday,2016/4/4,18:11:00,2016/4/4 18:11,Halle,1,No
+Monday,2016/4/4,19:26:00,2016/4/4 19:26,Schaarbeek / Schaerbeek,1,No
+Monday,2016/4/4,19:38:00,2016/4/4 19:38,Louvain-La-Neuve-Univ.,1,No
+Monday,2016/4/4,19:51:00,2016/4/4 19:51,Arlon,2,No
+Monday,2016/4/4,20:11:00,2016/4/4 20:11,Halle,1,No
+Monday,2016/4/4,20:26:00,2016/4/4 20:26,Schaarbeek / Schaerbeek,1,No
+Monday,2016/4/4,20:55:00,2016/4/4 20:55,Brussel-Zuid / Bruxelles-Midi,12,No
+Monday,2016/4/4,21:02:00,2016/4/4 21:02,Charleroi-Sud,6,No
+Monday,2016/4/4,21:06:00,2016/4/4 21:06,Ottignies,5,No
+Monday,2016/4/4,21:09:00,2016/4/4 21:09,Brussel-Zuid / Bruxelles-Midi,4,No
+Monday,2016/4/4,21:21:00,2016/4/4 21:21,Liege-Palais,2,No
+Monday,2016/4/4,21:22:00,2016/4/4 21:22,Brussel-Zuid / Bruxelles-Midi,2,No
+Monday,2016/4/4,21:26:00,2016/4/4 21:26,Schaarbeek / Schaerbeek,3,No
+Monday,2016/4/4,21:33:00,2016/4/4 21:33,Dinant,8,No
+Monday,2016/4/4,22:06:00,2016/4/4 22:06,Ottignies,1,No
+Tuesday,2016/4/5,6:34:00,2016/4/5 6:34,Dinant,7,No
+Tuesday,2016/4/5,6:50:00,2016/4/5 6:50,Mechelen,5,No
+Tuesday,2016/4/5,6:51:00,2016/4/5 6:51,Arlon,2,No
+Tuesday,2016/4/5,6:55:00,2016/4/5 6:55,Brussel-Zuid / Bruxelles-Midi,3,No
+Tuesday,2016/4/5,6:59:00,2016/4/5 6:59,Schaarbeek / Schaerbeek,2,No
+Tuesday,2016/4/5,7:11:00,2016/4/5 7:11,Halle,1,No
+Tuesday,2016/4/5,7:21:00,2016/4/5 7:21,Liege-Palais,7,No
+Tuesday,2016/4/5,7:22:00,2016/4/5 7:22,Brussel-Zuid / Bruxelles-Midi,4,No
+Tuesday,2016/4/5,7:26:00,2016/4/5 7:26,Schaarbeek / Schaerbeek,6,No
+Tuesday,2016/4/5,7:32:00,2016/4/5 7:32,Brussel-Zuid / Bruxelles-Midi,5,No
+Tuesday,2016/4/5,7:36:00,2016/4/5 7:36,Aalst,3,No
+Tuesday,2016/4/5,7:38:00,2016/4/5 7:38,Louvain-La-Neuve-Univ.,5,No
+Tuesday,2016/4/5,7:40:00,2016/4/5 7:40,Brussel-Zuid / Bruxelles-Midi,21,No
+Tuesday,2016/4/5,7:51:00,2016/4/5 7:51,Arlon,2,No
+Tuesday,2016/4/5,7:55:00,2016/4/5 7:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,8:00:00,2016/4/5 8:00,Brussel-Zuid / Bruxelles-Midi,9,No
+Tuesday,2016/4/5,8:09:00,2016/4/5 8:09,Brussel-Zuid / Bruxelles-Midi,2,No
+Tuesday,2016/4/5,8:11:00,2016/4/5 8:11,Halle,2,No
+Tuesday,2016/4/5,8:22:00,2016/4/5 8:22,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,8:26:00,2016/4/5 8:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,8:28:00,2016/4/5 8:28,Braine-L Alleud,5,No
+Tuesday,2016/4/5,8:36:00,2016/4/5 8:36,Aalst,3,No
+Tuesday,2016/4/5,8:38:00,2016/4/5 8:38,Louvain-La-Neuve-Univ.,1,No
+Tuesday,2016/4/5,8:40:00,2016/4/5 8:40,Brussel-Zuid / Bruxelles-Midi,2,No
+Tuesday,2016/4/5,8:51:00,2016/4/5 8:51,Arlon,3,No
+Tuesday,2016/4/5,8:55:00,2016/4/5 8:55,Brussel-Zuid / Bruxelles-Midi,6,No
+Tuesday,2016/4/5,8:59:00,2016/4/5 8:59,Schaarbeek / Schaerbeek,6,No
+Tuesday,2016/4/5,9:06:00,2016/4/5 9:06,Ottignies,1,No
+Tuesday,2016/4/5,9:09:00,2016/4/5 9:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,9:11:00,2016/4/5 9:11,Halle,2,No
+Tuesday,2016/4/5,9:21:00,2016/4/5 9:21,Liege-Palais,1,No
+Tuesday,2016/4/5,9:26:00,2016/4/5 9:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,9:36:00,2016/4/5 9:36,Aalst,2,No
+Tuesday,2016/4/5,9:38:00,2016/4/5 9:38,Louvain-La-Neuve-Univ.,1,No
+Tuesday,2016/4/5,9:50:00,2016/4/5 9:50,Mechelen,3,No
+Tuesday,2016/4/5,10:11:00,2016/4/5 10:11,Halle,1,No
+Tuesday,2016/4/5,10:26:00,2016/4/5 10:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,10:51:00,2016/4/5 10:51,Arlon,2,No
+Tuesday,2016/4/5,11:09:00,2016/4/5 11:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,11:22:00,2016/4/5 11:22,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,11:26:00,2016/4/5 11:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,11:55:00,2016/4/5 11:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,12:21:00,2016/4/5 12:21,Liege-Palais,1,No
+Tuesday,2016/4/5,12:22:00,2016/4/5 12:22,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,12:26:00,2016/4/5 12:26,Schaarbeek / Schaerbeek,2,No
+Tuesday,2016/4/5,12:51:00,2016/4/5 12:51,Arlon,2,No
+Tuesday,2016/4/5,13:09:00,2016/4/5 13:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,13:26:00,2016/4/5 13:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,14:26:00,2016/4/5 14:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,14:36:00,2016/4/5 14:36,Aalst,2,No
+Tuesday,2016/4/5,14:38:00,2016/4/5 14:38,Louvain-La-Neuve-Univ.,1,No
+Tuesday,2016/4/5,14:55:00,2016/4/5 14:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,14:59:00,2016/4/5 14:59,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,15:09:00,2016/4/5 15:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,15:21:00,2016/4/5 15:21,Liege-Palais,1,No
+Tuesday,2016/4/5,15:26:00,2016/4/5 15:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,15:38:00,2016/4/5 15:38,Louvain-La-Neuve-Univ.,1,No
+Tuesday,2016/4/5,16:00:00,2016/4/5 16:00,Dinant,2,No
+Tuesday,2016/4/5,16:06:00,2016/4/5 16:06,Ottignies,2,No
+Tuesday,2016/4/5,16:11:00,2016/4/5 16:11,Halle,1,No
+Tuesday,2016/4/5,16:21:00,2016/4/5 16:21,Liege-Palais,6,No
+Tuesday,2016/4/5,16:26:00,2016/4/5 16:26,Vilvoorde,12,No
+Tuesday,2016/4/5,16:30:00,2016/4/5 16:30,Arlon,10,No
+Tuesday,2016/4/5,16:36:00,2016/4/5 16:36,Aalst,1,No
+Tuesday,2016/4/5,16:38:00,2016/4/5 16:38,Louvain-La-Neuve-Univ.,4,No
+Tuesday,2016/4/5,16:51:00,2016/4/5 16:51,Arlon,4,No
+Tuesday,2016/4/5,16:56:00,2016/4/5 16:56,Charleroi-Sud,1,No
+Tuesday,2016/4/5,17:00:00,2016/4/5 17:00,Namur,3,No
+Tuesday,2016/4/5,17:09:00,2016/4/5 17:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,17:11:00,2016/4/5 17:11,Halle,1,No
+Tuesday,2016/4/5,17:21:00,2016/4/5 17:21,Liege-Palais,2,No
+Tuesday,2016/4/5,17:26:00,2016/4/5 17:26,Schaarbeek / Schaerbeek,2,No
+Tuesday,2016/4/5,17:28:00,2016/4/5 17:28,Braine-L Alleud,2,No
+Tuesday,2016/4/5,17:36:00,2016/4/5 17:36,Aalst,4,No
+Tuesday,2016/4/5,17:38:00,2016/4/5 17:38,Louvain-La-Neuve-Univ.,1,No
+Tuesday,2016/4/5,17:51:00,2016/4/5 17:51,Arlon,6,No
+Tuesday,2016/4/5,17:59:00,2016/4/5 17:59,Schaarbeek / Schaerbeek,3,No
+Tuesday,2016/4/5,18:21:00,2016/4/5 18:21,Liege-Palais,1,No
+Tuesday,2016/4/5,18:26:00,2016/4/5 18:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,18:38:00,2016/4/5 18:38,Louvain-La-Neuve-Univ.,1,No
+Tuesday,2016/4/5,19:09:00,2016/4/5 19:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,19:11:00,2016/4/5 19:11,Halle,1,No
+Tuesday,2016/4/5,19:21:00,2016/4/5 19:21,Liege-Palais,3,No
+Tuesday,2016/4/5,19:26:00,2016/4/5 19:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,20:03:00,2016/4/5 20:03,Charleroi-Sud,1,No
+Tuesday,2016/4/5,19:38:00,2016/4/5 19:38,Louvain-La-Neuve-Univ.,1,No
+Tuesday,2016/4/5,19:40:00,2016/4/5 19:40,Brussel-Zuid / Bruxelles-Midi,18,No
+Tuesday,2016/4/5,20:06:00,2016/4/5 20:06,Ottignies,2,No
+Tuesday,2016/4/5,20:09:00,2016/4/5 20:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,20:11:00,2016/4/5 20:11,Halle,2,No
+Tuesday,2016/4/5,21:09:00,2016/4/5 21:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,21:26:00,2016/4/5 21:26,Schaarbeek / Schaerbeek,1,No
+Tuesday,2016/4/5,21:55:00,2016/4/5 21:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Tuesday,2016/4/5,22:09:00,2016/4/5 22:09,Brussel-Zuid / Bruxelles-Midi,2,No
+Tuesday,2016/4/5,22:51:00,2016/4/5 22:51,Jemelle,2,No
+Wednesday,2016/4/6,6:51:00,2016/4/6 6:51,Arlon,1,No
+Wednesday,2016/4/6,7:11:00,2016/4/6 7:11,Halle,1,No
+Wednesday,2016/4/6,7:22:00,2016/4/6 7:22,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,7:26:00,2016/4/6 7:26,Schaarbeek / Schaerbeek,2,No
+Wednesday,2016/4/6,7:28:00,2016/4/6 7:28,Braine-L Alleud,1,No
+Wednesday,2016/4/6,7:38:00,2016/4/6 7:38,Louvain-La-Neuve-Univ.,1,No
+Wednesday,2016/4/6,7:51:00,2016/4/6 7:51,Arlon,7,No
+Wednesday,2016/4/6,7:55:00,2016/4/6 7:55,Brussel-Zuid / Bruxelles-Midi,2,No
+Wednesday,2016/4/6,8:05:00,2016/4/6 8:05,Schaarbeek / Schaerbeek,2,No
+Wednesday,2016/4/6,8:09:00,2016/4/6 8:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,8:22:00,2016/4/6 8:22,Brussel-Zuid / Bruxelles-Midi,2,No
+Wednesday,2016/4/6,8:26:00,2016/4/6 8:26,Schaarbeek / Schaerbeek,3,No
+Wednesday,2016/4/6,8:28:00,2016/4/6 8:28,Braine-L Alleud,12,No
+Wednesday,2016/4/6,8:32:00,2016/4/6 8:32,Leuven,9,No
+Wednesday,2016/4/6,8:36:00,2016/4/6 8:36,Aalst,9,No
+Wednesday,2016/4/6,8:51:00,2016/4/6 8:51,Arlon,7,No
+Wednesday,2016/4/6,8:55:00,2016/4/6 8:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,8:59:00,2016/4/6 8:59,Schaarbeek / Schaerbeek,2,No
+Wednesday,2016/4/6,9:06:00,2016/4/6 9:06,Ottignies,1,No
+Wednesday,2016/4/6,9:09:00,2016/4/6 9:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,9:11:00,2016/4/6 9:11,Halle,6,No
+Wednesday,2016/4/6,9:21:00,2016/4/6 9:21,Liege-Palais,8,No
+Wednesday,2016/4/6,9:26:00,2016/4/6 9:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,9:36:00,2016/4/6 9:36,Aalst,19,No
+Wednesday,2016/4/6,9:55:00,2016/4/6 9:55,Brussel-Zuid / Bruxelles-Midi,2,No
+Wednesday,2016/4/6,10:09:00,2016/4/6 10:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,10:11:00,2016/4/6 10:11,Halle,3,No
+Wednesday,2016/4/6,10:55:00,2016/4/6 10:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,10:59:00,2016/4/6 10:59,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,11:11:00,2016/4/6 11:11,Halle,1,No
+Wednesday,2016/4/6,11:26:00,2016/4/6 11:26,Schaarbeek / Schaerbeek,2,No
+Wednesday,2016/4/6,11:50:00,2016/4/6 11:50,Mechelen,1,No
+Wednesday,2016/4/6,11:59:00,2016/4/6 11:59,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,12:09:00,2016/4/6 12:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,12:26:00,2016/4/6 12:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,12:59:00,2016/4/6 12:59,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,13:11:00,2016/4/6 13:11,Halle,1,No
+Wednesday,2016/4/6,13:26:00,2016/4/6 13:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,13:51:00,2016/4/6 13:51,Arlon,1,No
+Wednesday,2016/4/6,13:59:00,2016/4/6 13:59,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,14:26:00,2016/4/6 14:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,14:38:00,2016/4/6 14:38,Louvain-La-Neuve-Univ.,1,No
+Wednesday,2016/4/6,14:51:00,2016/4/6 14:51,Arlon,1,No
+Wednesday,2016/4/6,15:09:00,2016/4/6 15:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,15:21:00,2016/4/6 15:21,Liege-Palais,3,No
+Wednesday,2016/4/6,15:26:00,2016/4/6 15:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,15:38:00,2016/4/6 15:38,Louvain-La-Neuve-Univ.,2,No
+Wednesday,2016/4/6,15:56:00,2016/4/6 15:56,Charleroi-Sud,1,No
+Wednesday,2016/4/6,16:09:00,2016/4/6 16:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,16:11:00,2016/4/6 16:11,Halle,4,No
+Wednesday,2016/4/6,16:26:00,2016/4/6 16:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,16:36:00,2016/4/6 16:36,Aalst,1,No
+Wednesday,2016/4/6,16:38:00,2016/4/6 16:38,Louvain-La-Neuve-Univ.,1,No
+Wednesday,2016/4/6,16:51:00,2016/4/6 16:51,Arlon,3,No
+Wednesday,2016/4/6,16:56:00,2016/4/6 16:56,Charleroi-Sud,1,No
+Wednesday,2016/4/6,17:09:00,2016/4/6 17:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,17:21:00,2016/4/6 17:21,Liege-Palais,1,No
+Wednesday,2016/4/6,17:26:00,2016/4/6 17:26,Schaarbeek / Schaerbeek,2,No
+Wednesday,2016/4/6,17:38:00,2016/4/6 17:38,Louvain-La-Neuve-Univ.,3,No
+Wednesday,2016/4/6,17:40:00,2016/4/6 17:40,Brussel-Zuid / Bruxelles-Midi,4,No
+Wednesday,2016/4/6,17:51:00,2016/4/6 17:51,Arlon,1,No
+Wednesday,2016/4/6,17:55:00,2016/4/6 17:55,Brussel-Zuid / Bruxelles-Midi,5,No
+Wednesday,2016/4/6,18:06:00,2016/4/6 18:06,Ottignies,4,No
+Wednesday,2016/4/6,18:11:00,2016/4/6 18:11,Halle,2,No
+Wednesday,2016/4/6,18:21:00,2016/4/6 18:21,Liege-Palais,2,No
+Wednesday,2016/4/6,18:38:00,2016/4/6 18:38,Louvain-La-Neuve-Univ.,16,No
+Wednesday,2016/4/6,18:55:00,2016/4/6 18:55,Brussel-Zuid / Bruxelles-Midi,2,No
+Wednesday,2016/4/6,19:09:00,2016/4/6 19:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,19:38:00,2016/4/6 19:38,Louvain-La-Neuve-Univ.,1,No
+Wednesday,2016/4/6,19:51:00,2016/4/6 19:51,Arlon,4,No
+Wednesday,2016/4/6,20:21:00,2016/4/6 20:21,Liege-Palais,1,No
+Wednesday,2016/4/6,20:26:00,2016/4/6 20:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,20:40:00,2016/4/6 20:40,Brussel-Zuid / Bruxelles-Midi,18,No
+Wednesday,2016/4/6,20:55:00,2016/4/6 20:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,21:38:00,2016/4/6 21:38,Louvain-La-Neuve-Univ.,7,No
+Wednesday,2016/4/6,22:26:00,2016/4/6 22:26,Schaarbeek / Schaerbeek,1,No
+Wednesday,2016/4/6,22:40:00,2016/4/6 22:40,Brussel-Zuid / Bruxelles-Midi,1,No
+Wednesday,2016/4/6,22:51:00,2016/4/6 22:51,Jemelle,5,No
+Thursday,2016/4/7,6:09:00,2016/4/7 6:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,7:21:00,2016/4/7 7:21,Liege-Palais,2,No
+Thursday,2016/4/7,7:26:00,2016/4/7 7:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,7:28:00,2016/4/7 7:28,Braine-L Alleud,3,No
+Thursday,2016/4/7,7:36:00,2016/4/7 7:36,Aalst,14,No
+Thursday,2016/4/7,7:40:00,2016/4/7 7:40,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,7:51:00,2016/4/7 7:51,Arlon,1,No
+Thursday,2016/4/7,7:55:00,2016/4/7 7:55,Brussel-Zuid / Bruxelles-Midi,2,No
+Thursday,2016/4/7,8:00:00,2016/4/7 8:00,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,8:05:00,2016/4/7 8:05,Schaarbeek / Schaerbeek,4,No
+Thursday,2016/4/7,8:21:00,2016/4/7 8:21,Liege-Palais,2,No
+Thursday,2016/4/7,8:16:00,2016/4/7 8:16,Halle,14,No
+Thursday,2016/4/7,8:26:00,2016/4/7 8:26,Schaarbeek / Schaerbeek,2,No
+Thursday,2016/4/7,8:36:00,2016/4/7 8:36,Aalst,1,No
+Thursday,2016/4/7,8:28:00,2016/4/7 8:28,Braine-L Alleud,12,No
+Thursday,2016/4/7,8:38:00,2016/4/7 8:38,Louvain-La-Neuve-Univ.,2,No
+Thursday,2016/4/7,8:59:00,2016/4/7 8:59,Schaarbeek / Schaerbeek,2,No
+Thursday,2016/4/7,9:09:00,2016/4/7 9:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,9:21:00,2016/4/7 9:21,Liege-Palais,1,No
+Thursday,2016/4/7,9:22:00,2016/4/7 9:22,Brussel-Zuid / Bruxelles-Midi,5,No
+Thursday,2016/4/7,9:26:00,2016/4/7 9:26,Schaarbeek / Schaerbeek,6,No
+Thursday,2016/4/7,9:32:00,2016/4/7 9:32,Brussel-Zuid / Bruxelles-Midi,2,No
+Thursday,2016/4/7,10:26:00,2016/4/7 10:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,11:11:00,2016/4/7 11:11,Halle,1,No
+Thursday,2016/4/7,11:26:00,2016/4/7 11:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,12:09:00,2016/4/7 12:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,12:26:00,2016/4/7 12:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,12:55:00,2016/4/7 12:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,13:11:00,2016/4/7 13:11,Halle,1,No
+Thursday,2016/4/7,13:26:00,2016/4/7 13:26,Schaarbeek / Schaerbeek,4,No
+Thursday,2016/4/7,13:59:00,2016/4/7 13:59,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,14:26:00,2016/4/7 14:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,14:51:00,2016/4/7 14:51,Arlon,4,No
+Thursday,2016/4/7,15:09:00,2016/4/7 15:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,15:11:00,2016/4/7 15:11,Halle,1,No
+Thursday,2016/4/7,15:26:00,2016/4/7 15:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,15:55:00,2016/4/7 15:55,Geraardsbergen,1,No
+Thursday,2016/4/7,15:56:00,2016/4/7 15:56,Charleroi-Sud,1,No
+Thursday,2016/4/7,16:00:00,2016/4/7 16:00,Dinant,2,No
+Thursday,2016/4/7,16:06:00,2016/4/7 16:06,Ottignies,2,No
+Thursday,2016/4/7,16:09:00,2016/4/7 16:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,16:21:00,2016/4/7 16:21,Liege-Palais,4,No
+Thursday,2016/4/7,16:26:00,2016/4/7 16:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,16:38:00,2016/4/7 16:38,Louvain-La-Neuve-Univ.,2,No
+Thursday,2016/4/7,16:51:00,2016/4/7 16:51,Arlon,1,No
+Thursday,2016/4/7,16:56:00,2016/4/7 16:56,Charleroi-Sud,5,No
+Thursday,2016/4/7,17:00:00,2016/4/7 17:00,Namur,11,No
+Thursday,2016/4/7,17:06:00,2016/4/7 17:06,Ottignies,8,No
+Thursday,2016/4/7,17:21:00,2016/4/7 17:21,Liege-Palais,1,No
+Thursday,2016/4/7,17:26:00,2016/4/7 17:26,Schaarbeek / Schaerbeek,3,No
+Thursday,2016/4/7,17:28:00,2016/4/7 17:28,Braine-L Alleud,2,No
+Thursday,2016/4/7,17:40:00,2016/4/7 17:40,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,18:09:00,2016/4/7 18:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,18:11:00,2016/4/7 18:11,Halle,1,No
+Thursday,2016/4/7,18:26:00,2016/4/7 18:26,Schaarbeek / Schaerbeek,2,No
+Thursday,2016/4/7,19:11:00,2016/4/7 19:11,Halle,2,No
+Thursday,2016/4/7,19:26:00,2016/4/7 19:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,20:11:00,2016/4/7 20:11,Halle,4,No
+Thursday,2016/4/7,20:26:00,2016/4/7 20:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,21:09:00,2016/4/7 21:09,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,21:40:00,2016/4/7 21:40,Brussel-Zuid / Bruxelles-Midi,1,No
+Thursday,2016/4/7,22:26:00,2016/4/7 22:26,Schaarbeek / Schaerbeek,1,No
+Thursday,2016/4/7,22:40:00,2016/4/7 22:40,Brussel-Zuid / Bruxelles-Midi,3,No
+Friday,2016/4/8,5:55:00,2016/4/8 5:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Friday,2016/4/8,6:09:00,2016/4/8 6:09,Brussel-Zuid / Bruxelles-Midi,2,No
+Friday,2016/4/8,6:51:00,2016/4/8 6:51,Arlon,1,No
+Friday,2016/4/8,7:11:00,2016/4/8 7:11,Halle,1,No
+Friday,2016/4/8,7:21:00,2016/4/8 7:21,Liege-Palais,3,No
+Friday,2016/4/8,7:28:00,2016/4/8 7:28,Braine-L Alleud,1,No
+Friday,2016/4/8,7:36:00,2016/4/8 7:36,Aalst,12,No
+Friday,2016/4/8,7:51:00,2016/4/8 7:51,Arlon,2,No
+Friday,2016/4/8,7:55:00,2016/4/8 7:55,Brussel-Zuid / Bruxelles-Midi,4,No
+Friday,2016/4/8,8:00:00,2016/4/8 8:00,Charleroi-Sud,17,No
+Friday,2016/4/8,8:09:00,2016/4/8 8:09,Brussel-Zuid / Bruxelles-Midi,2,No
+Friday,2016/4/8,8:21:00,2016/4/8 8:21,Liege-Palais,5,No
+Friday,2016/4/8,8:26:00,2016/4/8 8:26,Schaarbeek / Schaerbeek,3,No
+Friday,2016/4/8,8:28:00,2016/4/8 8:28,Braine-L Alleud,4,No
+Friday,2016/4/8,8:40:00,2016/4/8 8:40,Brussel-Zuid / Bruxelles-Midi,6,No
+Friday,2016/4/8,8:33:00,2016/4/8 8:33,Dinant,26,No
+Friday,2016/4/8,8:38:00,2016/4/8 8:38,Louvain-La-Neuve-Univ.,20,No
+Friday,2016/4/8,8:51:00,2016/4/8 8:51,Arlon,9,No
+Friday,2016/4/8,8:59:00,2016/4/8 8:59,Schaarbeek / Schaerbeek,6,No
+Friday,2016/4/8,9:06:00,2016/4/8 9:06,Ottignies,6,No
+Friday,2016/4/8,9:21:00,2016/4/8 9:21,Liege-Palais,2,No
+Friday,2016/4/8,9:26:00,2016/4/8 9:26,Merode,2,No
+Friday,2016/4/8,9:36:00,2016/4/8 9:36,Aalst,2,No
+Friday,2016/4/8,9:55:00,2016/4/8 9:55,Brussel-Zuid / Bruxelles-Midi,3,No
+Friday,2016/4/8,10:26:00,2016/4/8 10:26,Merode,3,No
+Friday,2016/4/8,10:40:00,2016/4/8 10:40,Brussel-Zuid / Bruxelles-Midi,1,No
+Friday,2016/4/8,11:26:00,2016/4/8 11:26,Schaarbeek / Schaerbeek,1,No
+Friday,2016/4/8,12:26:00,2016/4/8 12:26,Schaarbeek / Schaerbeek,1,No
+Friday,2016/4/8,13:21:00,2016/4/8 13:21,Liege-Palais,1,No
+Friday,2016/4/8,13:26:00,2016/4/8 13:26,Schaarbeek / Schaerbeek,1,No
+Friday,2016/4/8,14:11:00,2016/4/8 14:11,Halle,1,No
+Friday,2016/4/8,14:26:00,2016/4/8 14:26,Schaarbeek / Schaerbeek,1,No
+Friday,2016/4/8,14:38:00,2016/4/8 14:38,Louvain-La-Neuve-Univ.,3,No
+Friday,2016/4/8,14:51:00,2016/4/8 14:51,Arlon,2,No
+Friday,2016/4/8,15:21:00,2016/4/8 15:21,Liege-Palais,1,No
+Friday,2016/4/8,15:26:00,2016/4/8 15:26,Schaarbeek / Schaerbeek,1,No
+Friday,2016/4/8,15:51:00,2016/4/8 15:51,Arlon,1,No
+Friday,2016/4/8,15:55:00,2016/4/8 15:55,Geraardsbergen,1,No
+Friday,2016/4/8,16:00:00,2016/4/8 16:00,Dinant,5,No
+Friday,2016/4/8,16:06:00,2016/4/8 16:06,Ottignies,2,No
+Friday,2016/4/8,16:21:00,2016/4/8 16:21,Liege-Palais,2,No
+Friday,2016/4/8,16:26:00,2016/4/8 16:26,Schaarbeek / Schaerbeek,3,No
+Friday,2016/4/8,16:40:00,2016/4/8 16:40,Tournai,1,No
+Friday,2016/4/8,16:50:00,2016/4/8 16:50,Mechelen,6,No
+Friday,2016/4/8,16:51:00,2016/4/8 16:51,Arlon,2,No
+Friday,2016/4/8,16:55:00,2016/4/8 16:55,Brussel-Zuid / Bruxelles-Midi,5,No
+Friday,2016/4/8,16:56:00,2016/4/8 16:56,Charleroi-Sud,1,No
+Friday,2016/4/8,16:59:00,2016/4/8 16:59,Schaarbeek / Schaerbeek,2,No
+Friday,2016/4/8,17:00:00,2016/4/8 17:00,Namur,1,No
+Friday,2016/4/8,17:06:00,2016/4/8 17:06,Ottignies,3,No
+Friday,2016/4/8,17:21:00,2016/4/8 17:21,Liege-Palais,8,No
+Friday,2016/4/8,17:26:00,2016/4/8 17:26,Schaarbeek / Schaerbeek,2,No
+Friday,2016/4/8,17:28:00,2016/4/8 17:28,Braine-L Alleud,2,No
+Friday,2016/4/8,17:36:00,2016/4/8 17:36,Aalst,1,No
+Friday,2016/4/8,17:40:00,2016/4/8 17:40,Brussel-Zuid / Bruxelles-Midi,1,No
+Friday,2016/4/8,17:51:00,2016/4/8 17:51,Arlon,1,No
+Friday,2016/4/8,17:55:00,2016/4/8 17:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Friday,2016/4/8,17:59:00,2016/4/8 17:59,Schaarbeek / Schaerbeek,2,No
+Friday,2016/4/8,18:06:00,2016/4/8 18:06,Ottignies,1,No
+Friday,2016/4/8,18:21:00,2016/4/8 18:21,Liege-Palais,1,No
+Friday,2016/4/8,18:26:00,2016/4/8 18:26,Schaarbeek / Schaerbeek,1,No
+Friday,2016/4/8,18:51:00,2016/4/8 18:51,Arlon,1,No
+Friday,2016/4/8,21:26:00,2016/4/8 21:26,Schaarbeek / Schaerbeek,1,No
+Saturday,2016/4/9,7:21:00,2016/4/9 7:21,Dinant,9,No
+Saturday,2016/4/9,7:55:00,2016/4/9 7:55,Brussel-Zuid / Bruxelles-Midi,1,No
+Saturday,2016/4/9,8:51:00,2016/4/9 8:51,Arlon,5,No
+Saturday,2016/4/9,12:09:00,2016/4/9 12:09,Brussel-Zuid / Bruxelles-Midi,3,No
+Saturday,2016/4/9,13:21:00,2016/4/9 13:21,Dinant,1,No
+Saturday,2016/4/9,15:06:00,2016/4/9 15:06,Ottignies,3,No
+Saturday,2016/4/9,16:06:00,2016/4/9 16:06,Ottignies,1,No
+Saturday,2016/4/9,18:27:00,2016/4/9 18:27,Brussel-Zuid / Bruxelles-Midi,1,No
